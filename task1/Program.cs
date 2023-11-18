@@ -6,7 +6,7 @@ M = 4; N = 8 -> "4, 6, 8"*/
 int ReadInt(string mesage)
 {
     Console.WriteLine(mesage);
-    int result = Convert.ToInt32(Console.ReadLine());
+    int result = Convert.ToInt32(Math.Ceiling(Convert.ToDouble(Console.ReadLine()))); //чтобы не было ошибки, если введено дробное число
     return result;
 }
 //рекурсивный метод, который находит в ряду чисед натуральные чётные числа
