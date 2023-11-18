@@ -43,7 +43,7 @@ if (secondNumber == firstNumber && secondNumber % 2 != 0 || secondNumber < 0) //
 }
 else
 {
-    System.Console.WriteLine($"Натуральные четные числа в пределах от {firstNumber} до {secondNumber}:");
+    System.Console.WriteLine($"Натуральные четные числа в указанных пределах:");
     System.Console.WriteLine();
     PrintNaturalEvenNumbers(firstNumber, secondNumber);
 }
